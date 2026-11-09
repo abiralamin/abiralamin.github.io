@@ -494,6 +494,9 @@ button { font: inherit; cursor: pointer; background: none; border: none; color: 
   gap: 0.6rem;
 }
 .skill-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   padding: 0.5rem 1rem;
   font-size: var(--fs-sm);
   font-weight: var(--fw-medium);
@@ -502,6 +505,11 @@ button { font: inherit; cursor: pointer; background: none; border: none; color: 
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   transition: border-color var(--transition), color var(--transition), background var(--transition);
+}
+.skill-chip svg {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
 }
 .skill-chip:hover {
   border-color: var(--accent);
