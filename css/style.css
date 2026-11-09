@@ -144,7 +144,6 @@ button { font: inherit; cursor: pointer; background: none; border: none; color: 
 }
 .nav__logo:hover .nav__logo-img {
   transform: scale(1.06);
-  box-shadow: 0 0 0 1px var(--accent-2), 0 0 14px rgba(52, 211, 153, 0.35);
 }
 .nav__logo-img {
   width: 38px;
